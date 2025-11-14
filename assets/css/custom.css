@@ -1,0 +1,71 @@
+/* Taruh CSS Custom Disini */
+/* Taruh CSS Custom Disini */
+
+/* ---------------------------------- */
+/* STYLING KHUSUS UNTUK HALAMAN INDEX */
+/* ---------------------------------- */
+
+/* Styling untuk Card Selamat Datang */
+.card-welcome {
+    padding: 30px;
+    background-color: #f8f9fa; /* Latar belakang abu-abu muda */
+    border: none;
+    border-radius: 15px;
+}
+
+/* Styling untuk container gambar showroom */
+.motor-showroom-image {
+    max-width: 700px; /* Batasi lebar maksimal gambar */
+    margin: 0 auto 30px auto; /* Pusatkan gambar dan beri jarak bawah */
+    overflow: hidden; /* Penting untuk efek transisi */
+    border-radius: 15px; /* Sudut membulat */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Bayangan kuat */
+}
+
+.motor-showroom-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out; /* Efek zoom saat hover */
+}
+
+/* Efek hover pada gambar */
+.motor-showroom-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Penyesuaian Tombol Aksi */
+.card-welcome .btn-lg {
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Efek angkat dan bayangan saat hover pada tombol */
+.card-welcome .btn-lg:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Penyesuaian Warna Teks */
+.card-welcome h4 {
+    color: #007bff; /* Biru cerah untuk judul */
+    font-weight: 700;
+}
+
+.card-welcome .lead {
+    font-weight: 400;
+    color: #6c757d;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menambahkan sedikit gaya ke breadcrumb */
+.app-content-header .breadcrumb-item.active {
+    font-weight: 600;
+    color: #1abc9c; /* Warna Teal untuk pembeda */
+}
+
+
+
+/* for page input
